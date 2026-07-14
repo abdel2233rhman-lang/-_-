@@ -548,6 +548,44 @@
         </div>
 
     </section>
+    <section class="reviews" id="reviews">
+
+    <h2>آراء العملاء</h2>
+
+    <form id="reviewForm">
+
+        <input
+            type="text"
+            id="name"
+            placeholder="الاسم"
+            required
+        >
+
+        <select id="rating" required>
+            <option value="">اختر التقييم</option>
+            <option value="5">⭐⭐⭐⭐⭐ ممتاز</option>
+            <option value="4">⭐⭐⭐⭐ جيد جدًا</option>
+            <option value="3">⭐⭐⭐ جيد</option>
+            <option value="2">⭐⭐ مقبول</option>
+            <option value="1">⭐ ضعيف</option>
+        </select>
+
+        <textarea
+            id="comment"
+            rows="5"
+            placeholder="اكتب رأيك هنا..."
+            required
+        ></textarea>
+
+        <button type="submit">
+            إرسال الرأي
+        </button>
+
+    </form>
+
+    <div id="reviewsContainer"></div>
+
+</section>
 
     <!-- ================= تواصل معنا ================= -->
 
@@ -698,6 +736,7 @@ menuBtn.onclick = function () {
 };
 
 </script>
+<script type="module" src="script.js"></script>
 
 </body>
 
