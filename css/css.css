@@ -48,7 +48,7 @@ nav{
 
 }
 .logo{
-    background-image: ;
+   
 
     display: flex;
 
@@ -117,7 +117,7 @@ nav ul li a:hover{
     width: 100%;
     height: 100vh;
     /* cover000000000 */
-    /* background-image: url("../imges/bg.jpg") ; */
+    background-image: url("../imges/hero.jpeg") ;
 
     /* background:
     linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)),
@@ -166,7 +166,7 @@ nav ul li a:hover{
 
 .hero h3{
 
-    color: #d6a04a;
+    color: #fefefc;
 
     font-size: 32px;
 
@@ -1646,4 +1646,48 @@ footer{
         font-size:15px;
     }
 
+}
+.menu-btn{
+    display:none;
+    font-size:30px;
+    color:#fff;
+    cursor:pointer;
+}
+
+@media (max-width:768px){
+
+    nav{
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+        flex-wrap:wrap;
+        padding:15px 20px;
+    }
+
+    .menu-btn{
+        display:block;
+    }
+
+    nav ul{
+        width:100%;
+        display:none;
+        flex-direction:column;
+        align-items:flex-end;
+        background:rgba(0,0,0,.9);
+        margin-top:15px;
+        padding:20px;
+        border-radius:10px;
+    }
+
+    nav ul.active{
+        display:flex;
+    }
+
+    nav ul li{
+        margin:10px 0;
+    }
+
+    nav ul li a{
+        font-size:18px;
+    }
 }
