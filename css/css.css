@@ -1690,4 +1690,64 @@ footer{
     nav ul li a{
         font-size:18px;
     }
+    /* Hero */
+
+.hero{
+    height:100vh;
+    min-height:100vh;
+    padding:120px 20px 40px;
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+
+.hero-content{
+    width:100%;
+    align-items:center;
+    text-align:center;
+}
+
+.hero h1{
+    font-size:34px;
+}
+
+.hero h3{
+    font-size:20px;
+}
+
+.hero p{
+    font-size:16px;
+    line-height:1.8;
+}
+
+/* Footer */
+
+.footer-top{
+    display:flex;
+    flex-direction:column;
+    gap:30px;
+    text-align:center;
+}
+
+.footer-top div{
+    width:100%;
+}
+
+.footer-top ul{
+    padding:0;
+}
+
+.footer-bottom{
+    text-align:center;
+}
+
+.footer-bottom h3{
+    margin-top:20px;
+    font-size:18px;
+}
+
+.footer-bottom p{
+    font-size:15px;
+    line-height:2;
+}
 }
