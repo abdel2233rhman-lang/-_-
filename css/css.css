@@ -1540,11 +1540,12 @@ footer{
     }
 
     .logo h2{
-        font-size:24px;
+        font-size:18px;
     }
 
     .logo span{
-        font-size:12px;
+        font-size:10px;
+        margin-top: 2px;
     }
 
     nav ul{
@@ -1689,7 +1690,8 @@ footer{
         justify-content:space-between;
         align-items:center;
         flex-wrap:wrap;
-        padding:15px 20px;
+        padding:8px 15px;
+        min-height: 60px;
     }
 
     .menu-btn{
@@ -1702,8 +1704,8 @@ footer{
         flex-direction:column;
         align-items:flex-end;
         background:rgba(0,0,0,.9);
-        margin-top:15px;
-        padding:20px;
+        margin-top:10px;
+        padding:12px;
         border-radius:10px;
     }
 
@@ -1712,11 +1714,11 @@ footer{
     }
 
     nav ul li{
-        margin:10px 0;
+        margin:6px 0;
     }
 
     nav ul li a{
-        font-size:18px;
+        font-size:16px;
     }
     /* Hero */
 
