@@ -1544,7 +1544,7 @@ footer{
     }
 
     .logo span{
-        font-size:10px;
+        font-size:9px;
         margin-top: 2px;
     }
 
@@ -1690,8 +1690,8 @@ footer{
         justify-content:space-between;
         align-items:center;
         flex-wrap:wrap;
-        padding:8px 15px;
-        min-height: 60px;
+        padding:5px 15px;
+        min-height: 50px;
     }
 
     .menu-btn{
