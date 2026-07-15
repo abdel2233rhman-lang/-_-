@@ -1847,3 +1847,270 @@ footer{
 .review-card p{
     line-height:1.7;
 }
+/*================== Categories ==================*/
+
+.categories{
+    padding:80px 8%;
+    background:#f8f8f8;
+}
+
+.categories-container{
+
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:30px;
+
+}
+
+.category-card{
+
+    background:#fff;
+    border-radius:15px;
+    overflow:hidden;
+    text-decoration:none;
+    box-shadow:0 5px 15px rgba(0,0,0,.15);
+    transition:.4s;
+
+}
+
+.category-card:hover{
+
+    transform:translateY(-8px);
+
+}
+
+.category-card img{
+
+    width:100%;
+    height:320px;
+    object-fit:cover;
+    display:block;
+
+}
+
+.category-text{
+
+    padding:20px;
+    text-align:center;
+
+}
+
+.category-text h3{
+
+    color:#8b5a2b;
+    font-size:28px;
+    margin-bottom:10px;
+
+}
+
+.category-text p{
+
+    color:#666;
+    line-height:1.8;
+
+}
+
+/*================== Responsive ==================*/
+
+@media(max-width:768px){
+
+    .categories-container{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .category-card img{
+
+        height:250px;
+
+    }
+
+}
+/*==========================
+    صفحات الأقسام
+==========================*/
+
+.page-header{
+
+    background:#1d1d1d;
+    padding:20px 8%;
+
+}
+
+.page-header nav{
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap:wrap;
+
+}
+
+.page-header .logo h2{
+
+    color:#d6a04a;
+    font-size:30px;
+
+}
+
+.page-header .logo span{
+
+    color:#fff;
+    font-size:14px;
+
+}
+
+.page-header nav ul{
+
+    display:flex;
+    list-style:none;
+    gap:25px;
+
+}
+
+.page-header nav ul li a{
+
+    color:#fff;
+    text-decoration:none;
+    transition:.3s;
+
+}
+
+.page-header nav ul li a:hover{
+
+    color:#d6a04a;
+
+}
+
+
+/*==========================
+      معرض الصور
+==========================*/
+
+.gallery-page{
+
+    padding:80px 8%;
+    background:#f7f7f7;
+
+}
+
+.gallery-page .title{
+
+    text-align:center;
+    margin-bottom:50px;
+
+}
+
+.gallery-page .title span{
+
+    color:#d6a04a;
+    font-size:18px;
+
+}
+
+.gallery-page .title h2{
+
+    margin-top:10px;
+    font-size:40px;
+    color:#333;
+
+}
+
+.gallery-container{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:25px;
+
+}
+
+.gallery-container img{
+
+    width:100%;
+    height:320px;
+    object-fit:cover;
+    border-radius:12px;
+    transition:.4s;
+    cursor:pointer;
+    box-shadow:0 5px 20px rgba(0,0,0,.15);
+
+}
+
+.gallery-container img:hover{
+
+    transform:scale(1.05);
+
+}
+
+.back-home{
+
+    margin-top:60px;
+    text-align:center;
+
+}
+
+.back-home .btn{
+
+    background:#d6a04a;
+    color:#fff;
+    padding:14px 35px;
+    border-radius:8px;
+    text-decoration:none;
+    transition:.3s;
+
+}
+
+.back-home .btn:hover{
+
+    background:#b37e28;
+
+}
+
+
+/*==========================
+      Responsive
+==========================*/
+
+@media(max-width:992px){
+
+.gallery-container{
+
+grid-template-columns:repeat(2,1fr);
+
+}
+
+}
+
+
+@media(max-width:768px){
+
+.page-header nav{
+
+flex-direction:column;
+
+}
+
+.page-header nav ul{
+
+margin-top:20px;
+flex-direction:column;
+text-align:center;
+
+}
+
+.gallery-container{
+
+grid-template-columns:1fr;
+
+}
+
+.gallery-container img{
+
+height:260px;
+
+}
+
+}
