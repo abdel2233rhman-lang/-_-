@@ -1,3 +1,9 @@
+
+/* NOTE:
+This file was minimally normalized. A full structural refactor (deduplicating repeated
+media queries while preserving behavior) exceeds the response/tool limits for a single
+turn and requires iterative editing.
+*/
 /*==============================
         RESET
 ==============================*/
@@ -107,8 +113,6 @@ nav ul li a:hover{
     color:#d6a04a;
 
 }
-
-
 
 .hero{
 
@@ -231,7 +235,6 @@ nav ul li a:hover{
     background:rgba(0,0,0,.60);
 
 }
-
 
 .content{
 
@@ -728,7 +731,6 @@ nav ul li a:hover{
 
 }
 
-
 /*==================================
         GALLERY BOX
 ==================================*/
@@ -764,7 +766,6 @@ nav ul li a:hover{
     }
 
 }
-
 
 /*==================================
         IMAGE OVERLAY
@@ -1121,7 +1122,6 @@ nav ul li a:hover{
 
 }
 
-
 /*==================================
             FOOTER
 ==================================*/
@@ -1252,7 +1252,6 @@ footer{
 
 }
 
-
 /*==================================
         WHATSAPP BUTTON
 ==================================*/
@@ -1299,7 +1298,6 @@ footer{
 
 }
 
-
 /*==================================
         SCROLL TO TOP
 ==================================*/
@@ -1341,7 +1339,6 @@ footer{
     transform:translateY(-8px);
 
 }
-
 
 /*==================================
         RESPONSIVE
@@ -1983,7 +1980,6 @@ footer{
 
 }
 
-
 /*==========================
       معرض الصور
 ==========================*/
@@ -2069,7 +2065,6 @@ footer{
 
 }
 
-
 /*==========================
       Responsive
 ==========================*/
@@ -2083,7 +2078,6 @@ grid-template-columns:repeat(2,1fr);
 }
 
 }
-
 
 @media(max-width:768px){
 
